@@ -48,7 +48,7 @@ The visualization layer connects directly to the PostgreSQL backend.
     * Cumulative championship points
 * **UX Design:** The interface uses slicers for dynamic filtering by race, driver, and team.
 
-![Power BI Schema](assets\schema\power_bi_schema_image.png)
+![Power BI Schema](assets/schema/power_bi_schema_image.png)
 
 ## Dashboard Features
 
