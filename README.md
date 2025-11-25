@@ -5,10 +5,9 @@ In the GR Cup, a single mistake on an exit can lead to being overtaken by multip
 
 This project bridges the driver-engineer gap by consolidating raw timing data into a centralized Post-Race Analysis Dashboard. It transforms disjointed datasets into a relational model, providing clear, actionable insights into performance metrics, sector times, and championship standings.
 
-<iframe title="GR Cup Post Race Analysis" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNzI3YWNjNDQtYzZiNC00YzQ3LTljODgtNWFmYTVjYmI2YzEzIiwidCI6IjhkMWE2OWVjLTAzYjUtNDM0NS1hZTIxLWRhZDExMmY1ZmI0ZiIsImMiOjN9" frameborder="0" allowFullScreen="true"></iframe>
+[<img src="assets/thumbnail/dashboard_image.png">]([https://link-to-your-URL/](https://app.powerbi.com/view?r=eyJrIjoiNzI3YWNjNDQtYzZiNC00YzQ3LTljODgtNWFmYTVjYmI2YzEzIiwidCI6IjhkMWE2OWVjLTAzYjUtNDM0NS1hZTIxLWRhZDExMmY1ZmI0ZiIsImMiOjN9))
 
-(Some plots might not be visible, due to data constraints a Fiber, as large telemetry files were not possible to be uploaded. Full walkthrough can be found [here](https://youtu.be/rPs4oI0CnDI))
-
+(Some telemetry plots might not be visible, due to data constraints on Fiber, as large telemetry files were not possible to be uploaded and accessed. Full walkthrough can be found [here](https://youtu.be/rPs4oI0CnDI))
 
 ## System Architecture
 The solution implements a full data engineering pipeline, moving from raw data extraction to a structured SQL backend, and finally to a Power BI frontend.
