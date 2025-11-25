@@ -5,7 +5,7 @@ In the GR Cup, a single mistake on an exit can lead to being overtaken by multip
 
 This project bridges the driver-engineer gap by consolidating raw timing data into a centralized Post-Race Analysis Dashboard. It transforms disjointed datasets into a relational model, providing clear, actionable insights into performance metrics, sector times, and championship standings.
 
-[<img src="assets/thumbnail/dashboard_image.png">]([https://link-to-your-URL/](https://app.powerbi.com/view?r=eyJrIjoiNzI3YWNjNDQtYzZiNC00YzQ3LTljODgtNWFmYTVjYmI2YzEzIiwidCI6IjhkMWE2OWVjLTAzYjUtNDM0NS1hZTIxLWRhZDExMmY1ZmI0ZiIsImMiOjN9))
+[<img src="assets/dashboard_images/page_1.png">](https://app.powerbi.com/view?r=eyJrIjoiNzI3YWNjNDQtYzZiNC00YzQ3LTljODgtNWFmYTVjYmI2YzEzIiwidCI6IjhkMWE2OWVjLTAzYjUtNDM0NS1hZTIxLWRhZDExMmY1ZmI0ZiIsImMiOjN9)
 
 (Some telemetry plots might not be visible, due to data constraints on Fiber, as large telemetry files were not possible to be uploaded and accessed. Full walkthrough can be found [here](https://youtu.be/rPs4oI0CnDI))
 
@@ -54,18 +54,27 @@ The visualization layer connects directly to the PostgreSQL backend.
 The application is segmented into three analytical layers:
 
 ### 1. Championship View
+
+[<img src="assets/dashboard_images/page_1.png">](https://app.powerbi.com/view?r=eyJrIjoiNzI3YWNjNDQtYzZiNC00YzQ3LTljODgtNWFmYTVjYmI2YzEzIiwidCI6IjhkMWE2OWVjLTAzYjUtNDM0NS1hZTIxLWRhZDExMmY1ZmI0ZiIsImMiOjN9)
+
 A season-wide macro view focusing on long-term performance.
 * Driver and team standings.
 * Points progression and average points per race.
 * Driver contribution ratios to team totals.
 
 ### 2. Race Analysis
+
+[<img src="assets/dashboard_images/page_2.png">](https://app.powerbi.com/view?r=eyJrIjoiNzI3YWNjNDQtYzZiNC00YzQ3LTljODgtNWFmYTVjYmI2YzEzIiwidCI6IjhkMWE2OWVjLTAzYjUtNDM0NS1hZTIxLWRhZDExMmY1ZmI0ZiIsImMiOjN9)
+
 A focused view on specific event dynamics.
 * Fastest laps and average pace comparison.
 * Position changes and gap evolution charts.
 * Cleaned race results with precise time deltas.
 
 ### 3. Driver Analysis
+
+[<img src="assets/dashboard_images/page_3.png">](https://app.powerbi.com/view?r=eyJrIjoiNzI3YWNjNDQtYzZiNC00YzQ3LTljODgtNWFmYTVjYmI2YzEzIiwidCI6IjhkMWE2OWVjLTAzYjUtNDM0NS1hZTIxLWRhZDExMmY1ZmI0ZiIsImMiOjN9)
+
 A micro-view for technical engineering comparisons.
 * Lap-by-lap telemetry comparison.
 * Sector improvements and theoretical best laps.
